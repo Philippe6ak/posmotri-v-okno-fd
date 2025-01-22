@@ -305,7 +305,7 @@ input[type="checkbox"]:hover + span + span {
   /* padding: 10px 100px; */
   min-width: 194px;
   min-height: 34px;
-  outline: none; 
+  outline: none;
 }
 
 .search-form__submit-button:active {
