@@ -336,13 +336,16 @@ ol {
 /* button styles */
 
 .button {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  text-align: center;
-  background-color: transparent;
   color: #fff;
+  background-color: transparent;
   border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 34px;
 }
 
 .button:active {
@@ -358,20 +361,18 @@ ol {
   outline: none;
 }
 
-.search-form__submit-button:focus-visible { /* applied only to the search button due to the size increase when applied to the other */
+.button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
 .search-form__submit-button {
   min-width: 194px;
-  min-height: 34px;
-  outline: none;
+  padding: 6px 0px;
 }
 
 .more-button {
-  width: 100%;
+  width: calc(100% - 5px);
   padding: 10px 0px;
-  outline: none;
-  margin: 20px 0px 5px 0px;
+  margin: 30px 2px 2px;
 }
